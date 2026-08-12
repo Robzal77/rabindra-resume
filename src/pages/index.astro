@@ -1,0 +1,401 @@
+---
+const email = 'mailto:Rabindra.rizal@gmail.com';
+const linkedin = 'https://www.linkedin.com/in/rabindrarizal';
+const github = 'https://github.com/Robzal77';
+const portfolio = 'https://robzal77.github.io/rabindra-portfolio/';
+
+const impact = [
+	{ value: '25', label: 'BI, data engineering & analytics professionals led globally' },
+	{ value: '90%', label: 'manual effort removed from global carbon reporting' },
+	{ value: '~7 FTE', label: 'annual capacity returned through automation' },
+	{ value: '46 → 81', label: 'stakeholder NPS after trust and quality improvements' },
+	{ value: '100+ hrs', label: 'saved monthly through commercial analytics modernisation' },
+	{ value: '150+', label: 'users enabled on governed self-service analytics' },
+];
+
+const roleFit = [
+	{ title: 'Senior Product Manager', detail: 'Data products · AI platforms · developer and self-service experiences' },
+	{ title: 'Senior Technical Program Manager', detail: 'Global platforms · automation · cross-functional execution' },
+	{ title: 'Product Operations Leader', detail: 'Operating models · adoption · governance · value realisation' },
+];
+
+const expertise = [
+	{
+		title: 'Product & program leadership',
+		items: ['Product discovery', 'Outcome roadmaps', 'Requirements & prioritisation', 'Portfolio planning', 'Product health metrics', 'Risk & dependency management', 'Launch readiness', 'Adoption & value realisation'],
+	},
+	{
+		title: 'Data & analytics platforms',
+		items: ['Microsoft Fabric', 'Databricks', 'Azure Data Factory', 'Power BI', 'SQL', 'DAX', 'Semantic models', 'Data quality & governance'],
+	},
+	{
+		title: 'AI & automation',
+		items: ['Copilot workflows', 'Reusable AI agents', 'Responsible AI controls', 'Automated documentation', 'Power Automate', 'Power Apps', 'Prompt engineering', 'Human review gates'],
+	},
+	{
+		title: 'Leadership & operations',
+		items: ['Global team leadership', 'Executive communication', 'Coaching technical leads', 'Quarterly operating reviews', 'Partner coordination', 'Change enablement', 'Standards & playbooks', 'Operational handoff'],
+	},
+];
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="generator" content={Astro.generator} />
+		<meta name="theme-color" content="#f7f8fb" />
+		<meta name="description" content="Rabindra Rizal — senior product, program and data/AI platform leader with 12 years of global technology delivery experience." />
+		<meta property="og:title" content="Rabindra Rizal — Senior Product, Program & Data/AI Leader" />
+		<meta property="og:description" content="12 years leading global analytics, automation and AI-enabled platform work with measurable outcomes." />
+		<meta property="og:type" content="profile" />
+		<meta property="og:image" content={new URL(`${import.meta.env.BASE_URL}og.png`, Astro.site)} />
+		<meta property="og:image:alt" content="Rabindra Rizal — Senior Product, Program and Data/AI Platform Leader" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:image" content={new URL(`${import.meta.env.BASE_URL}og.png`, Astro.site)} />
+		<title>Rabindra Rizal — Senior Product, Program & Data/AI Leader</title>
+		<script type="application/ld+json" set:html={JSON.stringify({
+			'@context': 'https://schema.org',
+			'@type': 'Person',
+			name: 'Rabindra Rizal',
+			jobTitle: 'Technology & Program Manager',
+			url: Astro.url.href,
+			sameAs: [linkedin, github, portfolio],
+			address: { '@type': 'PostalAddress', addressLocality: 'Bengaluru', addressCountry: 'IN' },
+			knowsAbout: ['Product management', 'Technical program management', 'Data platforms', 'Business intelligence', 'Responsible AI', 'Product operations'],
+		})}></script>
+	</head>
+	<body>
+		<a class="skip-link" href="#resume">Skip to résumé</a>
+
+		<header class="topbar">
+			<div class="wrap topbar-inner">
+				<a class="identity" href="#top" aria-label="Rabindra Rizal, top of page"><span>RR</span><strong>Rabindra Rizal</strong></a>
+				<nav aria-label="Résumé navigation">
+					<a href="#impact">Impact</a>
+					<a href="#experience">Experience</a>
+					<a href="#expertise">Expertise</a>
+				</nav>
+				<div class="top-actions">
+					<button class="print-button" type="button" data-print>Print / save PDF</button>
+					<a class="contact-button" href={email}>Contact</a>
+				</div>
+			</div>
+		</header>
+
+		<main id="resume">
+			<section class="hero wrap" id="top" aria-labelledby="hero-title">
+				<div class="hero-main">
+					<p class="eyebrow">Senior technology leadership · Bengaluru, India</p>
+					<h1 id="hero-title">Rabindra<br /><span>Rizal</span></h1>
+					<p class="role-line">Senior Product, Program & Data/AI Platform Leader</p>
+					<p class="summary">I turn ambiguous enterprise problems into roadmaps, governed platforms and operating systems that teams can scale. Across 12 years, I have led global analytics, automation and product-delivery work from discovery through adoption—combining executive-level program leadership with hands-on data and AI fluency.</p>
+					<div class="hero-links">
+						<a class="primary-link" href={email}>Email Rabindra <span aria-hidden="true">↗</span></a>
+						<a href={linkedin} target="_blank" rel="noreferrer">LinkedIn ↗</a>
+						<a href={portfolio} target="_blank" rel="noreferrer">Portfolio ↗</a>
+						<a href={github} target="_blank" rel="noreferrer">GitHub ↗</a>
+					</div>
+				</div>
+
+				<aside class="recruiter-brief" aria-labelledby="brief-title">
+					<p class="brief-label" id="brief-title">Recruiter brief</p>
+					<dl>
+						<div><dt>Experience</dt><dd>12 years</dd></div>
+						<div><dt>Current scope</dt><dd>Global analytics & automation portfolios</dd></div>
+						<div><dt>Leadership</dt><dd>Distributed team of 25</dd></div>
+						<div><dt>Domains</dt><dd>Sustainability, Logistics, Commercial & Supply Chain</dd></div>
+						<div><dt>Current company</dt><dd>AB InBev — GCC</dd></div>
+					</dl>
+					<p class="brief-note"><span></span> Best aligned to senior roles where product thinking, platform delivery and operating discipline meet.</p>
+				</aside>
+			</section>
+
+			<section class="fit-section" aria-labelledby="fit-title">
+				<div class="wrap">
+					<div class="section-label"><span>01</span><p id="fit-title">Best-fit roles</p></div>
+					<div class="fit-grid">
+						{roleFit.map((role) => <article><h2>{role.title}</h2><p>{role.detail}</p></article>)}
+					</div>
+				</div>
+			</section>
+
+			<section class="impact-section wrap" id="impact" aria-labelledby="impact-title">
+				<div class="section-label"><span>02</span><p id="impact-title">Selected impact</p></div>
+				<div class="impact-grid">
+					{impact.map((item) => <article><strong>{item.value}</strong><p>{item.label}</p></article>)}
+				</div>
+			</section>
+
+			<section class="experience-section wrap" id="experience" aria-labelledby="experience-title">
+				<div class="section-label"><span>03</span><p id="experience-title">Professional experience</p></div>
+
+				<div class="experience-list">
+					<article class="job current">
+						<div class="job-meta"><p>AB InBev — GCC</p><time>Sep 2022 — Present</time><span>Current</span></div>
+						<div class="job-content">
+							<h2>Technology & Program Manager</h2>
+							<p class="job-intro">Own global analytics and automation portfolios across Sustainability, Logistics and Commercial functions, connecting business priorities to scalable data products, operating controls and measurable value.</p>
+							<ul>
+								<li>Lead a distributed team of 25 BI developers, data engineers and analysts; coach technical leads and establish standards for reliable, reusable delivery.</li>
+								<li>Define annual and multi-year roadmaps, portfolio priorities, delivery plans and quarterly operating reviews across three global domains.</li>
+								<li>Automated global carbon reporting across four zones, reducing manual effort by 90%, increasing data accuracy to 97% and restoring audit readiness.</li>
+								<li>Scaled a Power BI operating model spanning PBIP/TMDL, Git workflows, workspace governance, quality controls and reusable assets—reducing report fragmentation by approximately 40%.</li>
+								<li>Delivered analytics and workflow automation returning approximately seven FTEs annually and reducing recurring reporting work by 67%.</li>
+								<li>Introduced responsible-AI controls, Copilot-enabled knowledge, reusable agents and automated documentation to improve discoverability, repeatability and operational handoffs.</li>
+								<li>Governed Power Apps and KORE partner integrations from requirements through validation and handoff, removing more than 33 hours of manual work per cycle.</li>
+							</ul>
+						</div>
+					</article>
+
+					<article class="job">
+						<div class="job-meta"><p>AB InBev — GCC</p><time>May 2021 — Aug 2022</time></div>
+						<div class="job-content">
+							<h2>Principal Analyst</h2>
+							<ul>
+								<li>Led the Qlik-to-Power BI modernisation of Europe Daily Sales, reducing refresh duration from 13 hours to two hours, saving 100+ hours monthly and reaching 260+ average daily views.</li>
+								<li>Used stakeholder feedback and cross-product quality signals to prioritise improvements, increasing NPS from 46 to 81.</li>
+								<li>Enabled more than 150 users through governed standards, reusable guidance and training that accelerated self-service adoption.</li>
+							</ul>
+						</div>
+					</article>
+
+					<article class="job">
+						<div class="job-meta"><p>Wipro Technologies</p><time>Jan 2017 — Apr 2021</time></div>
+						<div class="job-content">
+							<h2>Power BI Developer</h2>
+							<ul>
+								<li>Designed enterprise analytics products and optimised semantic models using Power BI, DAX and SQL; led delivery for a four-person BI team.</li>
+								<li>Translated business requirements into reusable reporting capabilities and mentored developers on quality and consistent delivery.</li>
+							</ul>
+						</div>
+					</article>
+
+					<article class="job">
+						<div class="job-meta"><p>Wipro Technologies</p><time>Jul 2014 — Dec 2016</time></div>
+						<div class="job-content">
+							<h2>Implementation Engineer</h2>
+							<ul>
+								<li>Led enterprise monitoring and automation proofs of concept, translating client needs and operational data into scalable enhancements.</li>
+								<li>Automated ITSM workflows and coordinated delivery, incident resolution, technical handoffs and stakeholder communication across client teams.</li>
+							</ul>
+						</div>
+					</article>
+				</div>
+			</section>
+
+			<section class="expertise-section" id="expertise" aria-labelledby="expertise-title">
+				<div class="wrap">
+					<div class="section-label light"><span>04</span><p id="expertise-title">Core expertise</p></div>
+					<div class="expertise-grid">
+						{expertise.map((group) => <article><h2>{group.title}</h2><ul>{group.items.map((item) => <li>{item}</li>)}</ul></article>)}
+					</div>
+				</div>
+			</section>
+
+			<section class="credentials-section wrap" aria-labelledby="credentials-title">
+				<div class="section-label"><span>05</span><p id="credentials-title">Education, credentials & recognition</p></div>
+				<div class="credentials-grid">
+					<article><p>Education</p><h2>M.Tech, Computer Engineering</h2><span>VIT</span><h2>B.Sc., Biotechnology</h2><span>Bangalore University</span></article>
+					<article><p>Certifications</p><ul><li>Microsoft Certified: Data Analyst Associate</li><li>Microsoft Certified: Power Platform Fundamentals</li><li>Leadership Development Program</li><li>AB InBev Certified Technical Trainer</li><li>Generative AI Mastermind</li></ul></article>
+					<article><p>Recognition</p><ul><li>Manager of the Quarter — 2026</li><li>Annual Brew Award — Sustainable & Scalable Solutions</li></ul></article>
+				</div>
+			</section>
+
+			<section class="closing-section">
+				<div class="wrap closing-inner">
+					<div><p class="eyebrow">Available for the right senior opportunity</p><h2>Looking for a leader who can connect strategy, technology and adoption?</h2></div>
+					<div class="closing-actions"><a class="primary-link light-button" href={email}>Start a conversation <span aria-hidden="true">↗</span></a><button type="button" data-print>Print / save PDF</button><a href={portfolio} target="_blank" rel="noreferrer">View project portfolio ↗</a></div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer wrap"><p>© {new Date().getFullYear()} Rabindra Rizal</p><p>Résumé website · Bengaluru, India</p><a href="#top">Back to top ↑</a></footer>
+
+		<script>
+			document.querySelectorAll('[data-print]').forEach((button) => button.addEventListener('click', () => window.print()));
+		</script>
+	</body>
+</html>
+
+<style is:global>
+	:root {
+		--ink: #111827;
+		--navy: #0c1b35;
+		--blue: #2457d6;
+		--blue-soft: #e9efff;
+		--paper: #f7f8fb;
+		--white: #ffffff;
+		--muted: #5d6779;
+		--line: #d9deea;
+		--green: #18a777;
+		--max: 1180px;
+		font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+		color: var(--ink);
+		background: var(--paper);
+		font-synthesis: none;
+	}
+	* { box-sizing: border-box; }
+	html { scroll-behavior: smooth; scroll-padding-top: 86px; }
+	body { margin: 0; line-height: 1.55; background: var(--paper); }
+	a { color: inherit; }
+	a:focus-visible, button:focus-visible { outline: 3px solid #86a6ff; outline-offset: 3px; }
+	::selection { color: white; background: var(--blue); }
+	.wrap { width: min(calc(100% - 48px), var(--max)); margin-inline: auto; }
+	.skip-link { position: fixed; z-index: 100; top: 10px; left: 10px; padding: 10px 14px; color: white; background: var(--navy); transform: translateY(-160%); }
+	.skip-link:focus { transform: translateY(0); }
+
+	.topbar { position: sticky; z-index: 50; top: 0; border-bottom: 1px solid rgba(17,24,39,.1); background: rgba(247,248,251,.92); backdrop-filter: blur(18px); }
+	.topbar-inner { min-height: 76px; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 24px; }
+	.identity { width: fit-content; display: inline-flex; align-items: center; gap: 10px; font-size: .78rem; text-decoration: none; }
+	.identity span { width: 38px; height: 38px; display: grid; place-items: center; border-radius: 10px; color: white; background: var(--navy); font-size: .75rem; font-weight: 800; }
+	.identity strong { letter-spacing: -.01em; }
+	nav { display: flex; gap: 28px; }
+	nav a { color: #475266; font-size: .74rem; font-weight: 700; text-decoration: none; }
+	nav a:hover { color: var(--blue); }
+	.top-actions { justify-self: end; display: flex; align-items: center; gap: 10px; }
+	button { font: inherit; cursor: pointer; }
+	.print-button { padding: 9px 11px; border: 0; color: var(--muted); background: transparent; font-size: .7rem; font-weight: 700; }
+	.contact-button { padding: 10px 14px; border-radius: 8px; color: white; background: var(--blue); font-size: .72rem; font-weight: 800; text-decoration: none; }
+
+	.hero { min-height: 660px; display: grid; grid-template-columns: 1.35fr .65fr; gap: clamp(60px, 9vw, 125px); align-items: center; padding-block: 90px 100px; }
+	.eyebrow { margin: 0; color: var(--blue); font-size: .67rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+	h1, h2, p { text-wrap: pretty; }
+	h1 { margin: 22px 0 0; font-size: clamp(4.4rem, 8vw, 8.4rem); line-height: .79; letter-spacing: -.075em; }
+	h1 span { color: transparent; -webkit-text-stroke: 2px var(--ink); }
+	.role-line { margin: 38px 0 0; font-size: clamp(1.25rem, 2vw, 1.8rem); font-weight: 720; letter-spacing: -.03em; }
+	.summary { max-width: 750px; margin: 23px 0 0; color: #4f5b6d; font-size: 1.02rem; }
+	.hero-links { display: flex; flex-wrap: wrap; align-items: center; gap: 23px; margin-top: 34px; }
+	.hero-links > a:not(.primary-link) { color: #4d596c; font-size: .72rem; font-weight: 750; text-underline-offset: 4px; }
+	.primary-link { min-height: 48px; display: inline-flex; align-items: center; justify-content: center; gap: 26px; padding: 12px 16px; border-radius: 8px; color: white; background: var(--blue); font-size: .76rem; font-weight: 800; text-decoration: none; }
+
+	.recruiter-brief { padding: 25px; border: 1px solid var(--line); border-radius: 18px; background: white; box-shadow: 0 24px 65px rgba(32,48,80,.09); }
+	.brief-label { margin: 0 0 20px; color: var(--blue); font-size: .64rem; font-weight: 850; letter-spacing: .12em; text-transform: uppercase; }
+	dl { margin: 0; }
+	dl div { display: grid; grid-template-columns: 95px 1fr; gap: 12px; padding: 13px 0; border-top: 1px solid var(--line); }
+	dt { color: var(--muted); font-size: .66rem; }
+	dd { margin: 0; font-size: .72rem; font-weight: 720; }
+	.brief-note { margin: 20px 0 0; padding: 16px; border-radius: 11px; color: #344154; background: var(--blue-soft); font-size: .72rem; }
+	.brief-note span { width: 7px; height: 7px; display: inline-block; margin-right: 7px; border-radius: 50%; background: var(--green); }
+
+	.fit-section { padding-block: 75px 85px; color: white; background: var(--navy); }
+	.section-label { display: flex; align-items: center; gap: 13px; margin-bottom: 38px; }
+	.section-label span { color: var(--blue); font: 800 .68rem/1 ui-monospace, SFMono-Regular, Consolas, monospace; }
+	.section-label p { margin: 0; color: var(--muted); font-size: .68rem; font-weight: 850; letter-spacing: .12em; text-transform: uppercase; }
+	.section-label.light span { color: #8facff; }
+	.section-label.light p, .fit-section .section-label p { color: #9eabc0; }
+	.fit-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid #31405a; }
+	.fit-grid article { min-height: 175px; padding: 30px 30px 25px 0; border-right: 1px solid #31405a; }
+	.fit-grid article + article { padding-left: 30px; }
+	.fit-grid article:last-child { border-right: 0; }
+	.fit-grid h2 { margin: 0; font-size: 1.35rem; letter-spacing: -.035em; }
+	.fit-grid p { max-width: 280px; margin: 17px 0 0; color: #9eabc0; font-size: .77rem; }
+
+	.impact-section, .experience-section, .credentials-section { padding-block: 110px 120px; }
+	.impact-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); background: white; }
+	.impact-grid article { min-height: 195px; display: flex; flex-direction: column; justify-content: space-between; padding: 27px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+	.impact-grid strong { color: var(--blue); font-size: clamp(2.5rem, 4vw, 4rem); line-height: 1; letter-spacing: -.06em; }
+	.impact-grid p { max-width: 235px; margin: 0; color: var(--muted); font-size: .76rem; }
+
+	.experience-section { padding-top: 20px; }
+	.experience-list { border-top: 1px solid var(--ink); }
+	.job { display: grid; grid-template-columns: 220px 1fr; gap: 70px; padding: 52px 0 58px; border-bottom: 1px solid var(--line); }
+	.job-meta { position: relative; }
+	.job-meta p { margin: 0 0 7px; font-size: .78rem; font-weight: 800; }
+	.job-meta time { color: var(--muted); font-size: .68rem; }
+	.job-meta span { width: fit-content; display: block; margin-top: 16px; padding: 5px 8px; border-radius: 99px; color: #086846; background: #d8f7eb; font-size: .56rem; font-weight: 850; letter-spacing: .08em; text-transform: uppercase; }
+	.job-content h2 { margin: 0; font-size: clamp(1.7rem, 2.8vw, 2.65rem); line-height: 1; letter-spacing: -.045em; }
+	.job-intro { max-width: 780px; margin: 23px 0; color: #4b586b; font-size: .93rem; }
+	.job-content ul { margin: 25px 0 0; padding: 0; list-style: none; }
+	.job-content li { position: relative; max-width: 850px; padding: 11px 0 11px 24px; border-top: 1px solid #e4e7ee; color: #435064; font-size: .82rem; }
+	.job-content li::before { content: ''; position: absolute; top: 18px; left: 2px; width: 7px; height: 7px; border-radius: 2px; background: var(--blue); }
+
+	.expertise-section { padding-block: 105px 120px; color: white; background: var(--navy); }
+	.expertise-grid { display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid #31405a; border-left: 1px solid #31405a; }
+	.expertise-grid article { min-height: 300px; padding: 33px; border-right: 1px solid #31405a; border-bottom: 1px solid #31405a; }
+	.expertise-grid h2 { margin: 0 0 28px; font-size: 1.25rem; letter-spacing: -.03em; }
+	.expertise-grid ul { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; }
+	.expertise-grid li { height: fit-content; padding: 7px 10px; border: 1px solid #42516a; border-radius: 6px; color: #b7c1d1; font-size: .68rem; }
+
+	.credentials-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 50px; border-top: 1px solid var(--ink); padding-top: 35px; }
+	.credentials-grid article > p { margin: 0 0 23px; color: var(--blue); font-size: .66rem; font-weight: 850; text-transform: uppercase; letter-spacing: .1em; }
+	.credentials-grid h2 { margin: 0 0 5px; font-size: 1.05rem; }
+	.credentials-grid h2:nth-of-type(2) { margin-top: 24px; }
+	.credentials-grid span { color: var(--muted); font-size: .72rem; }
+	.credentials-grid ul { margin: 0; padding: 0; list-style: none; }
+	.credentials-grid li { padding: 9px 0; border-bottom: 1px solid var(--line); color: #4a5668; font-size: .74rem; }
+
+	.closing-section { color: white; background: var(--blue); }
+	.closing-inner { min-height: 470px; display: grid; grid-template-columns: 1.25fr .75fr; gap: 90px; align-items: center; }
+	.closing-inner .eyebrow { color: #cbd7ff; }
+	.closing-inner h2 { max-width: 790px; margin: 19px 0 0; font-size: clamp(2.8rem, 5vw, 5.2rem); line-height: .98; letter-spacing: -.06em; }
+	.closing-actions { display: grid; gap: 14px; align-content: center; }
+	.light-button { color: var(--navy); background: white; }
+	.closing-actions button, .closing-actions > a:not(.primary-link) { width: fit-content; padding: 0; border: 0; color: #dfe6ff; background: transparent; font-size: .72rem; font-weight: 750; text-decoration: underline; text-underline-offset: 4px; }
+
+	.footer { min-height: 95px; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; color: var(--muted); font-size: .66rem; }
+	.footer p { margin: 0; }
+	.footer p:nth-child(2) { text-align: center; }
+	.footer a { justify-self: end; font-weight: 750; text-decoration: none; }
+
+	@media (max-width: 900px) {
+		.wrap { width: min(calc(100% - 32px), var(--max)); }
+		.topbar-inner { grid-template-columns: 1fr auto; }.topbar nav { display: none; }
+		.hero { grid-template-columns: 1fr; gap: 55px; padding-block: 70px 85px; }
+		.recruiter-brief { max-width: 540px; }
+		.fit-grid { grid-template-columns: 1fr; }.fit-grid article, .fit-grid article + article { min-height: 130px; padding: 25px 0; border-right: 0; border-bottom: 1px solid #31405a; }
+		.impact-grid { grid-template-columns: 1fr 1fr; }
+		.job { grid-template-columns: 160px 1fr; gap: 35px; }
+		.closing-inner { grid-template-columns: 1fr; gap: 40px; padding-block: 80px; }
+	}
+
+	@media (max-width: 620px) {
+		.topbar-inner { min-height: 68px; }.identity strong, .print-button { display: none; }
+		h1 { font-size: clamp(4rem, 23vw, 6rem); }.hero { padding-top: 60px; }.summary { font-size: .92rem; }
+		.hero-links { align-items: flex-start; }.primary-link { width: 100%; }
+		.impact-section, .credentials-section { padding-block: 80px; }.impact-grid { grid-template-columns: 1fr; }.impact-grid article { min-height: 155px; }
+		.experience-section { padding-bottom: 85px; }.job { grid-template-columns: 1fr; gap: 22px; padding: 39px 0 45px; }
+		.job-content li { padding-left: 20px; }
+		.expertise-section { padding-block: 80px; }.expertise-grid { grid-template-columns: 1fr; }.expertise-grid article { min-height: auto; padding: 28px 24px; }
+		.credentials-grid { grid-template-columns: 1fr; gap: 45px; }
+		.closing-inner { min-height: auto; }.closing-actions .primary-link { width: 100%; }
+		.footer { grid-template-columns: 1fr auto; }.footer p:nth-child(2) { display: none; }
+	}
+
+	@media print {
+		@page { size: A4; margin: 14mm 13mm; }
+		:root { --paper: #fff; }
+		html { font-size: 10.5px; }
+		body { background: white; }
+		.topbar, .fit-section, .closing-section, .footer, .hero-links, .brief-note { display: none !important; }
+		.wrap { width: 100%; }
+		.hero { min-height: auto; grid-template-columns: 1.35fr .65fr; gap: 12mm; padding: 0 0 9mm; border-bottom: 1px solid #bbb; }
+		h1 { font-size: 4.2rem; }
+		.role-line { margin-top: 5mm; }
+		.summary { margin-top: 3mm; }
+		.recruiter-brief { padding: 4mm; box-shadow: none; }
+		.recruiter-brief dl div { padding: 1.8mm 0; }
+		.impact-section { padding: 8mm 0; }
+		.section-label { margin-bottom: 5mm; }
+		.impact-grid { grid-template-columns: repeat(3, 1fr); }
+		.impact-grid article { min-height: 26mm; padding: 4mm; break-inside: avoid; }
+		.impact-grid strong { font-size: 2.3rem; }
+		.experience-section { padding: 0; }
+		.job { grid-template-columns: 35mm 1fr; gap: 7mm; padding: 6mm 0; break-inside: avoid; }
+		.job-content h2 { font-size: 1.6rem; }
+		.job-intro { margin: 3mm 0; }
+		.job-content ul { margin-top: 3mm; }
+		.job-content li { padding: 1.5mm 0 1.5mm 4mm; }
+		.expertise-section { padding: 8mm 0; color: var(--ink); background: white; break-before: page; }
+		.section-label.light p { color: var(--muted); }
+		.expertise-grid { grid-template-columns: 1fr 1fr; border-color: #ccc; }
+		.expertise-grid article { min-height: 34mm; padding: 4mm; border-color: #ccc; }
+		.expertise-grid li { color: #333; border-color: #bbb; }
+		.credentials-section { padding: 8mm 0 0; }
+		.credentials-grid { gap: 8mm; padding-top: 5mm; }
+		a { text-decoration: none; }
+	}
+
+	@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style>
